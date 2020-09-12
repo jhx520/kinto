@@ -10,8 +10,12 @@
                     }
                 ]
             },
+            "sniffing": {
+          "enabled": false,
+          "destOverride": ["http", "tls"]
+        },
             "streamSettings": {
-                "network": "ws"
+                "network": "http"
             }
         }
     ],
